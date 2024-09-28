@@ -38,6 +38,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            println("Change 1")
+            println("Change 1")
             println("Third branch test")
             DictionaryTheme {
                 /** Define instance from viewmodel and state **/
