@@ -38,7 +38,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            println("Fourth branch test")
+            println("Change 2")
+            println("Change 2")
+            println("Change 4")
             DictionaryTheme {
                 /** Define instance from viewmodel and state **/
                 val viewModel: WordInfoViewModel = hiltViewModel()
