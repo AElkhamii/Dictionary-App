@@ -99,5 +99,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-Wrong commit
